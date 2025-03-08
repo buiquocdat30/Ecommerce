@@ -1,9 +1,7 @@
 import React from "react";
 import "./BreadCrums.css";
 import arrow_icon from "../Assets/breadcrum_arrow.png";
-const BreadCrums = (props) => {
-  const { product } = props;
-
+const BreadCrums = ({ product }) => {
   if (!product.category) {
     console.log("lỗi ko có data");
   } else {
