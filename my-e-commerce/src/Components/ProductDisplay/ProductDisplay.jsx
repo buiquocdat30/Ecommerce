@@ -41,7 +41,7 @@ const ProductDisplay = ({ product }) => {
           suscipit laborum quam. Iure aut, ut obcaecati placeat deleniti
           eveniet.
         </div>
-        <div className="productdisplay-right-size">
+        <div className="productdisplay-right-sizes">
           <h1>Select Size</h1>
           <div className="productdisplay-right-size">
             <div>S</div>
@@ -53,10 +53,10 @@ const ProductDisplay = ({ product }) => {
         </div>
         <button>ADD TO CART</button>
         <p className="productdisplay-righ-cartegory">
-          <span>Category</span>Women, T-Shirt, Crop-Top
+          <span>Category: </span>Women, T-Shirt, Crop-Top
         </p>
         <p className="productdisplay-righ-cartegory">
-          <span>Tags</span>Modern, Latest
+          <span>Tags: </span>Modern, Latest
         </p>
       </div>
     </div>

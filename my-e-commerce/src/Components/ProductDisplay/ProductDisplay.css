@@ -1,6 +1,6 @@
 .productdisplay {
     display: flex;
-    margin: 0 170px;
+    margin: 0 50px;
 }
 
 .productdisplay-left {
@@ -15,19 +15,21 @@
 }
 
 .productdisplay-img-list img {
-    height: 163px;
-
+    height: 150px;
+    width: auto;
+    object-fit: cover;
 }
 
 .productdisplay-img {}
 
 .productdisplay-main-img {
-    width: 586px;
-    height: 700px;
+    width: auto;
+    height: 649px;
+    object-fit: cover;
 }
 
 .productdisplay-right {
-    margin: 0 170px;
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
 }
@@ -38,16 +40,84 @@
     font-weight: 700;
 }
 
-.productdisplay-right-star {}
+.productdisplay-right button {
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
 
-.productdisplay-right-prices {}
+.productdisplay-right-star {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
 
-.productdisplay-right-prices-old {}
+.productdisplay-right-prices {
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
 
-.productdisplay-right-prices-new {}
+.productdisplay-right-prices-old {
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-prices-new {
+    color: #ff4141;
+}
 
 .productdisplay-right-description {}
 
-.productdisplay-right-size {}
+.productdisplay-right-sizes {
+    display: flex;
+    border: none !important;
+}
 
-.productdisplay-righ-cartegory {}
+.productdisplay-right-sizes h1 {
+    padding: 18px 24px;
+    padding-left: 0;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+.productdisplay-right-size {
+    display: flex;
+    border: none;
+    gap: 20px;
+
+}
+.productdisplay-right-size div {
+    padding: 18px 18px;
+    width: 60px;
+    height: 60px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+.productdisplay-right-size div:hover{
+    background: #ebebeb;
+}
+
+.productdisplay-righ-cartegory {
+    margin-top: 10px;
+}
+
+.productdisplay-righ-cartegory span {
+    font-weight: 600;
+}

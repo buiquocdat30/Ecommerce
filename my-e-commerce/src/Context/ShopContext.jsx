@@ -8,6 +8,11 @@ const ShopContextProvider=(props)=>{
 
     const contextValue={all_product}
 
+    const getDefaultCart=()=>{
+        let cart={};
+        
+    }
+
     return(
         <ShopContext.Provider value={contextValue} >
             {props.children}
